@@ -1,313 +1,356 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/Responsive_file.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
+
 <body>
+    <!-- hero section  -->
 
-    <!-- Navbar -->
-    <header class="header" id="active">
+    <section class="section-1">
+        <main class="bgcolor">
+            <header class="header" id="action">
+                <!-- navbar logo -->
+                <div class="logo">
+                    <a href=""><img src="IMG/logo.png" alt="logo" width="100px"></a>
+                    <div class="logotext">
+                        <h1>Wanderlust</h1>
+                        <h6>explore the world</h6>
+                    </div>
+                </div>
 
-        <div class="logo">
-            <a href="index.html"><h1>W</h1></a>
-            <h2>Portfolio</h2>
-        </div>
-
-        <nav class="navbar">
-            <ul class="nav-list">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#skills">Technical Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-              
-            </ul>
-
-            <div class="btn1">
-                <a href="IMG/Prabal shukla.pdf">Resume</a>
+                <!-- navbar  -->
+                <Nav class="navbar">
+                    <ul class="navlist">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#packages">Packages</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="btn">
+                        <a href="#">Book Now</a>
+                    </div>
+                </Nav>
+                <div class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+            </header>
+            <!-- content of the IMG are -->
+            <div class="hero-section">
+                <div class="Herocontent">
+                    <h6>Discover * Explore * Travel</h6>
+                    <h1>Explore the world <span style="color:var(--buttoncolo);">with us</span></h1>
+                    <p>your next adventure is just a click away. Discover
+                        amazing places, create unforgettable memories.</p>
+                    <div class="btns">
+                        <div class="btn1">
+                            <a href="#">Explore Now</a>
+                        </div>
+                        <a href="">
+                            <div class="btn2">
+                                <i class="fa-solid fa-download"></i>
+                                <h4>Download</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
-        </nav>
-
-        <div class="burger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-            <i class="fa-solid fa-circle-xmark"></i>
-        </div>
-
-    </header>
-
-    <!-- Hero Section -->
-    <section class="section-1" id="home">
-
-        <div class="left-side-menu">
-            <h1><span class="highlight">Hello</span> I'M</h1>
-            <h2>Prabal Shukla</h2>
-
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nobis rem ea ex excepturi eveniet. Quisquam at consequuntur
-                veritatis, eligendi consequatur sit neque officia molestiae?
-                Impedit consectetur sunt odit ipsum accusantium.
-            </p>
-
-            <a href="#about" class="btn2">Learn More</a>
-        </div>
-
-        <div class="right-side-menu">
-            <img src="IMG/photo-1.png" alt="Prabal Shukla">
-        </div>
-
+        </main>
     </section>
 
-    <!-- Section 2: About -->
-    <section class="section-2" id="about">
+    <!-- section 2 start  -->
 
-        <div class="left-side-menu-1">
-            <img src="IMG/photo-2.png" alt="About me">
+    <section class="section-2">
+        <div class="main-heading-section-2">
+            <h6>our packages</h6>
+            <h4>best tour packages</h4>
+            <p>choose from our handpicked travels packafes and make your dream trip came true.</p>
         </div>
+        <div class="container">
 
-        <div class="right-side-menu-1">
-            <h1 style="color: var(--bgcolor);">About Me</h1>
-            <h2>I'm Prabal Shukla</h2>
+            <div class="box1">
+                <img src="IMG/package-1.jpg" alt="">
+                <h3>Manali Adventure</h3>
+                <p>3 days / 2 nights</p>
+                <p>Hotel + sightseeing + transport</p>
+                <h6>₹8,999 / person</h6>
+                <a href="#" id="btn3">View Details →</a>
+            </div>
 
-            <p>
-                Hi, I'm Prabal Shukla, a passionate Web Developer and BCA student.
-                I enjoy creating responsive, user-friendly, and attractive websites
-                using HTML, CSS, JavaScript, PHP, and MySQL. I am always eager to learn
-                new technologies, improve my skills, and build creative projects that solve
-                real-world problems. My goal is to grow as a developer and create meaningful
-                digital experiences.
-            </p>
+            <div class="box2">
+                <img src="IMG/package-2.jpg" alt="">
+                <h3>Goa beach holiday </h3>
+                <p>3 days/3 nights</p>
+                <p>Hotel + sightsheeing + transport</p>
+                <h6>12,999 / person</h6>
+                <a href="#" id="btn3">View Details →</a>
+            </div>
 
-            <div class="sub-menu">
-                <div class="social-icons">
+            <div class="box3">
+                <img src="IMG/package-3.jpg" alt="">
+                <h3>kashmir paradise </h3>
+                <p>5 days / 4 nights</p>
+                <p>hotel + sightsheeing + transport </p>
+                <h6> 18,999 / person</h6>
+                <a href="#" id="btn3">View Details →</a>
+            </div>
+        </div>
+    </section>
 
-                    <a href="https://www.instagram.com/prabalshukla400/" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-square-instagram"></i>
-                    </a>
 
-                    <a href="https://www.facebook.com/share/1E55ErbeXf/" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
+    <!-- section 3 start  -->
 
-                    <a href="https://www.linkedin.com/in/prabal-shukla-bb0031325/?isSelfProfile=true" target="_blank" rel="noopener noreferrer">
-                     <i class="fa-brands fa-linkedin"></i></a>
 
-                    <a href="https://github.com/Prabalcoder" target="_blank" rel="noopener noreferrer">
-                       <i class="fa-brands fa-github"></i>
-                    </a>
+    <section class="section-3">
+        <div class="left-side-contact">
+            <h5>Get In touch</h5>
+            <h1>contact us</h1>
+            <p>have a question or need help? feel free to reach out.
+                We'd love to hear from your!</p>
+            <div class="contact-content-1">
+                <i class="fa-solid fa-house"></i>
+                <div class="add-1">
+                    <h2>Address</h2>
+                    <p>123 Travel Street, new delhi india</p>
+                </div>
+            </div>
 
+            <div class="contact-content-1">
+                <i class="fa-solid fa-phone"></i>
+                <div class="add-1">
+                    <h2>Phione</h2>
+                    <p>Phone</p>
+                </div>
+            </div>
+
+
+
+            <div class="contact-content-1">
+                <i class="fa-sharp fa-solid fa-envelope"></i>
+                <div class="add-1">
+                    <h2>Email</h2>
+                    <p>Prabalshukla785@gmail.com</p>
+                </div>
+            </div>
+
+
+
+            <div class="contact-content-1">
+                <i class="fa-solid fa-clock"></i>
+                <div class="add-1">
+                    <h2>Working hours</h2>
+                    <p>Mon - friday 9:00AM to 6:00PM</p>
                 </div>
             </div>
         </div>
 
+        <div class="right-side-contact">
+
+            <form autocomplete="off">
+                <input type="text" id="input1" placeholder="Your name" required>
+
+                <input type="Email" id="input2" placeholder="Your Email" required>
+
+                <input type="Email" id="input3" placeholder="subject" required>
+
+                <select>
+
+                    <option disabled selected>
+                        Your State
+                    </option>
+                    <option>Telangana</option>
+                    <option>Maharashtra</option>
+                    <option>Karnataka</option>
+                    <option>Kerla</option>
+                    <option>uttar pradesh</option>
+                    <option>madhya pradesh</option>
+                </select>
+                <textarea name="address" rows="5" cols="40" placeholder="Enter message"></textarea>
+                <button type="submit">send Message</button>
+            </form>
+        </div>
     </section>
+    <!-- section -4  start  -->
 
-    <!-- Section 3: Services -->
-    <section class="section-3" id="services">
-
-        <h1 class="services-heading">
-            <span style="color: var(--bgcolor);">Our</span> services
-        </h1>
-
-        <div class="container">
-
-            <div class="box1">
-                <i class="fa-brands fa-square-web-awesome"></i>
-                <h1>Web Development</h1>
-                <p>I create modern and functional websites using HTML, CSS, and JavaScript.</p>
-            </div>
-
-            <div class="box2">
-                <i class="fa-brands fa-android"></i>
-                <h1>Responsive Design</h1>
-                <p>I build websites that work smoothly on mobile, tablet, and desktop screens.</p>
-            </div>
-
-            <div class="box3">
-                <i class="fa-solid fa-object-group"></i>
-                <h1>UI Design</h1>
-                <p>I design clean, attractive, and user-friendly website layouts with modern styles.</p>
-            </div>
-
-            <div class="box4">
-                <i class="fa-solid fa-database"></i>
-                <h1>PHP development</h1>
-                <p>I build dynamic websites using PHP and MySQL with useful features.</p>
-            </div>
-
+    <section class="section-4">
+        <div class="heading-destination">
+            <h6>top destinations</h6>
+            <h1>Popular Destinations</h1>
+            <p>Explore some of the most beautiful places around the world.</p>
         </div>
 
-        <div class="progress">
+        <!-- four containers for Destination -->
 
-            <div class="content-1">
-                <i class="fa-solid fa-rss"></i>
-                <h6>400K</h6>
-                <h3>Subscribers</h3>
+        <div class="Destination-box">
+            <div class="destination">
+                <img src="IMG/destination-1.jpg" alt="Manali" width="400px">
+                <h2> Manali </h2>
+                <p>Snowy mountains , eacting adventures and peaceful vides</p>
+                <a href="#" id="btn4">Explore →</a>
             </div>
 
-            <div class="content-2">
-                <i class="fa-solid fa-briefcase"></i>
-                <h6>300+</h6>
-                <h3>Projects</h3>
+            <div class="destination">
+                <img src="IMG/destination-2.jpg" alt="Manali" width="400px">
+                <h2> Goa </h2>
+                <p>Sun sand and endless beach fun</p>
+                <a href="#" id="btn4">Explore →</a>
             </div>
 
-            <div class="content-3">
-                <i class="fa-solid fa-music"></i>
-                <h6>200M</h6>
-                <h3>Music Videos</h3>
+            <div class="destination">
+                <img src="IMG/destination-3.jpg" alt="Manali" width="400px">
+                <h2> Kashmir </h2>
+                <p>heaven on earth with breathtaking views</p>
+                <a href="#" id="btn4">Explore →</a>
             </div>
 
-            <div class="content-4">
-                <i class="fa-brands fa-yammer"></i>
-                <h6>300</h6>
-                <h3>Commercials</h3>
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Section 4: Technical Skills -->
-    <section class="section-4" id="skills">
-
-        <h1 class="heading-1">
-            <span style="color: var(--bgcolor);">Technical</span> skills
-        </h1>
-
-        <div class="blog-container">
-
-            <div class="left-content">
-                <i class="fa-solid fa-camera"></i>
-                <h2>Filming Services</h2>
-                <p>Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet estsed ut euismod.</p>
-            </div>
-
-            <div class="middle-content">
-                <i class="fa-solid fa-plane"></i>
-                <h2>Digital Marketing</h2>
-                <p>Vivamus luctus maximus vestibulum. Donec et enim vitae tellus auctor menean leo diamfeugiat nulla sed.</p>
-            </div>
-
-            <div class="right-content">
-                <i class="fa-solid fa-wand-magic-sparkles"></i>
-                <h2>Visual effects</h2>
-                <p>Praesent commodo pharetra. Fusce fermentum anteac met interdum elementum arculectus lacinia nonsa.</p>
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Section 5: Contact -->
-    <section class="section-5" id="contact">
-
-        <div class="form-container">
-            <h1 class="heading-2">Contact form </h1>
-
-            <div class="form">
-
-                <form autocomplete="off">
-
-                    <label for="username">Username</label>
-                    <input type="text" id="username" name="username" placeholder="Enter username" required>
-
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Enter email" required>
-
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" placeholder="Enter password" required>
-
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" id="phone" name="phone" placeholder="Enter phone number">
-
-                    <button type="submit">Submit</button>
-
-                </form>
-
+            <div class="destination">
+                <img src="IMG/destination-4.jpg" alt="Manali" width="400px">
+                <h2> Bali </h2>
+                <p>Culture , beaches and unforgettable sunsets</p>
+                <a href="#" id="btn4">Explore →</a>
             </div>
         </div>
 
     </section>
 
+    <!-- section 5 start  -->
 
-<!-- section 6 start  -->
+    <section class="section-5">
 
-
-
-    <section class="about-section">
-
-        <div class="about-image">
-            <img
-                src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&q=80"
-                alt="Web development workspace">
+        <div class="left-side-about-section">
+            <img src="IMG/About.png" alt="" width="100%">
         </div>
 
-        <div class="about-content">
-            <h2>Let’s talk about your project
-</h2>
-
-            <p>
-                Donec et enim vitae tellus auctor menean leo diamfeugiat nulla sed. consequat venenatis est. Praesent commodo consequat pharetra.
-
-
+        <div class="Right-side-about-section">
+            <h6>About us</h6>
+            <h2>Your travels partner </h2>
+            <p>Wanderlust is a travel agency that helps you explode
+                the most beatiful destinations around the world.
+                We create unforgettable travels experieance with
+                comfort , safety and the best services
             </p>
 
-            <a href="#contact" class="about-btn">Read More</a>
-        </div>
+            <!-- create 3 icons create  -->
 
+            <div class="main-box">
+
+                <div class="icons">
+                    <a href="mailto:prabalshukla785@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <h3> Best Destination </h3>
+                    <span>Handpicked places for your perfect trip.</span>
+                </div>
+
+                <div class="icons">
+                    <a href=""><i class="fa-solid fa-house"></i></a>
+                    <h3>Affordable packages</h3>
+                    <span>Great travel at best prices</span>
+                </div>
+
+
+                <div class="icons">
+                    <a href=""><i class="fa-solid fa-plane"></i></a>
+                    <h3> Travel support</h3>
+                    <span> We're with you at every step.</span>
+                </div>
+            </div>
+        </div>
     </section>
 
 
+    <!-- footer -->
 
+    <footer class="footer">
+        <div class="footer-container">
 
-    
-<footer class="footer">
-    <div class="footer-content">
-        <h2>Portfolio</h2>
+            <div class="footer-top">
 
-        <p>Building creative and responsive websites with modern web technologies.</p>
+                <!-- Brand Section -->
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="IMG/logo.png" alt="Wanderlust Logo">
 
-        <div class="footer-links">
-            <a href="#active">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
+                        <div class="logo-text">
+                            <h2>Wanderlust</h2>
+                            <p>Explore the World</p>
+                        </div>
+                    </div>
+
+                    <p class="footer-description">
+                        Travel makes life better. Explore new places,
+                        meet new people and create unforgettable
+                        memories with Wanderlust.
+                    </p>
+
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/1E55ErbeXf/" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/prabalshukla400/" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="https://github.com/Prabalcoder">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/prabal-shukla-bb0031325/" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#packages">Packages</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Popular Destinations -->
+                <div class="footer-links">
+                    <h3>Popular Destinations</h3>
+
+                    <ul>
+                        <li><a href="#">Manali</a></li>
+                        <li><a href="#">Goa</a></li>
+                        <li><a href="#">Kashmir</a></li>
+                        <li><a href="#">Bali</a></li>
+                        <li><a href="#">Thailand</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="footer-bottom">
+                <p>© 2026 Wanderlust. All rights reserved.</p>
+
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <span>|</span>
+                    <a href="#">Terms &amp; Conditions</a>
+                </div>
+            </div>
+
         </div>
-
-        <div class="footer-social">
-            
-                    <a href="https://www.instagram.com/prabalshukla400/" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-square-instagram"></i>
-                    </a>
-
-                    <a href="https://www.facebook.com/share/1E55ErbeXf/" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/prabal-shukla-bb0031325/?isSelfProfile=true" target="_blank" rel="noopener noreferrer">
-                     <i class="fa-brands fa-linkedin"></i></a>
-
-                    <a href="https://github.com/Prabalcoder" target="_blank" rel="noopener noreferrer">
-                       <i class="fa-brands fa-github"></i>
-                    </a>
-
-        </div>
-    </div>
-
-    <div class="footer-bottom">
-        <p>&copy; 2026 Portfolio. All Rights Reserved.</p>
-    </div>
-</footer>
+    </footer>
 
 
     <script>
@@ -320,4 +363,5 @@
     </script>
 
 </body>
+
 </html>
